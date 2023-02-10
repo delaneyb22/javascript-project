@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+body{
+    margin:5% auto;
+    width: 60%;
+    line-height:1.5em;
+    font-size: 1em;
+    color:#2f2f2f;
+    background: #ede59c;
+  }
+h1{
+  color:#428cb4;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+#steps{
+  background:#ecdf6d;
+  border:2px solid #83c8ed;
+  padding:5px;
+  text-align: center;
+}
+h2{
+  font-family:'Boogaloo', cursive;
+  color:#428cb4;
+  text-shadow:2px 2px 2px #a9c6d4;
+}
+.playlist1{
+  background-color: #ecdf6d;
+  border:2px solid #83c8ed;
+  padding:5px;
+  text-align: center;
+}
+
+button{
+  background-color: antiquewhite;
+  color:#2f2f2f;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+  font-family: 'Boogaloo', cursive;
+  margin:15px;
+}
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #428cb4;
+  color: white;
+  font-family: 'Boogaloo', cursive;
+}
+
+
+  

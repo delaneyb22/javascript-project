@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="playlist.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+</head>
+<body>
+  <h1>RANDOM PLAYLIST MAKER</h1>
+<div id="steps">
+  <h2>1. Click the button of a genre to get a random song</h2>
+  <h2>2. Choose to add it to your own playlist.</h2>
+</div>
+
+  <button id="popBtn"onclick="GetPopSong()">Pop </button>
+  <button id="countryBtn"onclick="getCountrySong()">Country </button>
+  <button id="folkBtn"onclick="getFolkSong()">Folk </button>
+  <button id="jazzBtn"onclick="getJazzSong()">Jazz </button>
+  <button id="indieBtn"onclick="getIndieSong()">Indie </button>
+  <button id="altBtn"onclick="getAltSong()">Alternative </button>
+
+<p id="message" ></p>
+<p id="message2" ></p>
+
+<div class="playlist1">
+  <h2>Playlist</h2> 
+  <span id="Personal Playlist">
+    <div id="parent">
+    <ul id="Personal-Playlist">
+      <li></li><!-- empty list -->
+    </ul>
+    </div>
+  </span> 
+</div>
+
+<script src="playlist.js"></script>
+</body>
+</html>
